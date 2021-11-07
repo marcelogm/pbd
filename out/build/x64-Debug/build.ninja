@@ -123,6 +123,14 @@ build CMakeFiles\pbd.dir\src\Application.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
+build CMakeFiles\pbd.dir\src\simulation\Frametime.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\simulation\Frametime.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\simulation
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
 build CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\configuration\Configuration.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
@@ -139,31 +147,39 @@ build CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj: CXX_COMPILER__pbd_Debug ..\.
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
-build CMakeFiles\pbd.dir\src\scene\ObjectProvider.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\ObjectProvider.cpp || cmake_object_order_depends_target_pbd
+build CMakeFiles\pbd.dir\src\entity\ObjectProvider.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\entity\ObjectProvider.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
   OBJECT_DIR = CMakeFiles\pbd.dir
-  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\entity
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
-build CMakeFiles\pbd.dir\src\scene\Object.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\Object.cpp || cmake_object_order_depends_target_pbd
+build CMakeFiles\pbd.dir\src\entity\Object.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\entity\Object.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
   OBJECT_DIR = CMakeFiles\pbd.dir
-  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\entity
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
-build CMakeFiles\pbd.dir\src\scene\Entity.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\Entity.cpp || cmake_object_order_depends_target_pbd
+build CMakeFiles\pbd.dir\src\entity\Entity.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\entity\Entity.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
   OBJECT_DIR = CMakeFiles\pbd.dir
-  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\entity
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
 build CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\Scene.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
+build CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\Renderer.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
   OBJECT_DIR = CMakeFiles\pbd.dir
@@ -203,11 +219,19 @@ build CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj: CXX_COMPILER__pbd_Debu
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
-build CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\Renderer.cpp || cmake_object_order_depends_target_pbd
+build CMakeFiles\pbd.dir\src\simulation\Solver.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\simulation\Solver.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
   OBJECT_DIR = CMakeFiles\pbd.dir
-  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\simulation
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
+build CMakeFiles\pbd.dir\src\simulation\Gravity.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\simulation\Gravity.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\simulation
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
@@ -219,7 +243,7 @@ build CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj: CXX_COMPILER__pbd_Debug ..\
 #############################################
 # Link the static library lib\pbd.lib
 
-build lib\pbd.lib: CXX_STATIC_LIBRARY_LINKER__pbd_Debug CMakeFiles\pbd.dir\lib\gl3w.c.obj CMakeFiles\pbd.dir\lib\LoadShaders.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_demo.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_draw.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_widgets.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_tables.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_opengl3.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\pbd.dir\src\Application.cpp.obj CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj CMakeFiles\pbd.dir\src\scene\ObjectProvider.cpp.obj CMakeFiles\pbd.dir\src\scene\Object.cpp.obj CMakeFiles\pbd.dir\src\scene\Entity.cpp.obj CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj CMakeFiles\pbd.dir\src\gui\GuiRenderer.cpp.obj CMakeFiles\pbd.dir\src\gui\WindowEngine.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandService.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj
+build lib\pbd.lib: CXX_STATIC_LIBRARY_LINKER__pbd_Debug CMakeFiles\pbd.dir\lib\gl3w.c.obj CMakeFiles\pbd.dir\lib\LoadShaders.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_demo.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_draw.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_widgets.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_tables.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_opengl3.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\pbd.dir\src\Application.cpp.obj CMakeFiles\pbd.dir\src\simulation\Frametime.cpp.obj CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj CMakeFiles\pbd.dir\src\entity\ObjectProvider.cpp.obj CMakeFiles\pbd.dir\src\entity\Object.cpp.obj CMakeFiles\pbd.dir\src\entity\Entity.cpp.obj CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj CMakeFiles\pbd.dir\src\gui\GuiRenderer.cpp.obj CMakeFiles\pbd.dir\src\gui\WindowEngine.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandService.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\pbd.dir\src\simulation\Solver.cpp.obj CMakeFiles\pbd.dir\src\simulation\Gravity.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = CMakeFiles\pbd.dir

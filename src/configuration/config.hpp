@@ -14,14 +14,20 @@ typedef struct {
 	float diffuseLightStrength;
 } LightConfiguration;
 
+typedef struct {
+	float gravityModifier;
+} SimulationParams;
+
 class Configuration {
 private:
 	Configuration();
 	static Configuration* instance;
 	LightConfiguration light;
 	ViewportDimension viewport;
+	SimulationParams params;
 public:
 	static Configuration* getInstance();
 	ViewportDimension* getViewport();
 	LightConfiguration* getLight();
+	SimulationParams* getSimulationParams();
 };

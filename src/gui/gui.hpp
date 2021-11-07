@@ -6,6 +6,7 @@
 #include <backends/imgui_impl_glfw.h>
 #include "../camera/camera.hpp"
 #include "../configuration/config.hpp"
+#include "../simulation/simulation.hpp"
 
 using std::vector;
 

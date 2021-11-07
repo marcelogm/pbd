@@ -1,13 +1,11 @@
 #include "camera.hpp"
 
-Camera::Camera(vec3 position) {
+Camera::Camera(vec3 position, vec3 front, float yaw, float pitch) {
 	this->position = position;
+	this->front = front;
 	this->up = vec3(0.0f, 1.0f, 0.0f);
-	this->yaw = -90.0f;
-	this->pitch = 0.0f;
-	this->front = vec3();
-	this->right = vec3();
-	this->view = mat4(1.0f);
+	this->yaw = yaw;
+	this->pitch = pitch;
 	this->update();
 }
 
@@ -17,8 +15,6 @@ Camera::Camera() {
 	this->yaw = -90.0f;
 	this->pitch = 0.0f;
 	this->front = vec3();
-	this->right = vec3();
-	this->view = mat4(1.0f);
 	this->update();
 }
 

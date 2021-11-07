@@ -25,6 +25,6 @@ public:
 	void goDown(float);
 	mat4 getView();
 	vec3 getPosition();
-	Camera(vec3);
+	Camera(vec3, vec3, float, float);
 	Camera();
 };

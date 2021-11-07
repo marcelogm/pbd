@@ -42,16 +42,23 @@ add_library(pbd
 			${IMGUI_SOURCE_DIR}/backends/imgui_impl_opengl3.cpp
 			${IMGUI_SOURCE_DIR}/backends/imgui_impl_glfw.cpp 
 			"src/Application.cpp" 
+			"src/simulation/Frametime.cpp" 
 			"src/configuration/Configuration.cpp" 
 			"src/camera/Camera.cpp"  
-			"src/scene/ObjectProvider.cpp"
-			"src/scene/Object.cpp" 
-			"src/scene/Entity.cpp"
+			"src/entity/ObjectProvider.cpp"
+			"src/entity/Object.cpp" 
+			"src/entity/Entity.cpp"
 			"src/scene/Scene.cpp"
+			"src/scene/Renderer.cpp"
+			"src/scene/ClothSceneFactory.cpp"
 			"src/gui/GuiRenderer.cpp" 
 			"src/gui/WindowEngine.cpp" 
 			"src/gui/CommandService.cpp"
-			"src/gui/CommandStrategy.cpp" "src/scene/Renderer.cpp")
+			"src/gui/CommandStrategy.cpp" 
+			"src/simulation/Simulator.cpp"
+			"src/simulation/Gravity.cpp" 
+			"src/simulation/constraints/BendConstraint.cpp"
+			"src/simulation/constraints/BendConstraintFactory.cpp")
 
 find_package(OpenMP)
 if (OPENMP_FOUND)
@@ -59,7 +66,7 @@ if (OPENMP_FOUND)
 	set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-add_executable(main WIN32 src/main.cpp ${COMMON_HEADERS} "src/gui/CommandStrategy.cpp")
+add_executable(main WIN32 src/main.cpp ${COMMON_HEADERS} "src/gui/CommandStrategy.cpp" "src/simulation/constraints/BendConstraintFactory.cpp")
 target_link_libraries(main ${COMMON_LIBS})
 
 include_directories(include)

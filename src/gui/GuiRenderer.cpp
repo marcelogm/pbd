@@ -1,5 +1,4 @@
 #include "gui.hpp"
-#include "../Debug.cpp"
 
 void GuiRenderer::render() {
 	auto const config = Configuration::getInstance();
@@ -9,14 +8,17 @@ void GuiRenderer::render() {
 	ImGui::NewFrame();
 
 	ImGui::Begin("Info", NULL, ImGuiWindowFlags_AlwaysAutoResize);
-	ImGui::Text("FPS: %.2f", Debug::getInstance()->getFramerate());
+	ImGui::Text("FPS: %.2f", Frametime::getInstance()->getFramerate());
 	ImGui::End();
-
 
 	ImGui::Begin("Light", NULL, ImGuiWindowFlags_AlwaysAutoResize);
 	ImGui::SliderFloat3("Position", value_ptr(config->getLight()->lightPosition), -50, 50, "%.0f", ImGuiSliderFlags_None);
 	ImGui::SliderFloat("Ambient Strength", &config->getLight()->ambientLightStrength, 0, 1, "%.2f", ImGuiSliderFlags_None);
 	ImGui::SliderFloat("Difffuse Strength", &config->getLight()->diffuseLightStrength, 0, 1, "%.2f", ImGuiSliderFlags_None);
+	ImGui::End();
+
+	ImGui::Begin("Simulation", NULL, ImGuiWindowFlags_AlwaysAutoResize);
+	ImGui::SliderFloat("Position", &config->getSimulationParams()->gravityModifier, 0.00001f, 1.0f, "%.5f", ImGuiSliderFlags_Logarithmic);
 	ImGui::End();
 
 	ImGui::Render();
