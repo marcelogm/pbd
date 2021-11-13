@@ -7,7 +7,7 @@ Object ObjectProvider::get(string path) {
 
 	FILE* file = fopen(path.c_str(), "r");
 	if (file == NULL) {
-		return Object({}, {}, {});
+		return Object();
 	}
 	
 	while (true) {
@@ -39,7 +39,7 @@ Object ObjectProvider::get(string path) {
 		}
 	}
 
-	return Object(vertices, normals, triangles);
+	return Object(vertices, normals, triangles, 2.0f);
 }
 
 

@@ -1,0 +1,1778 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Eigen/Eigen3ConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Eigen/Eigen3Config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/lib/Eigen/Eigen3Targets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindOpenMP.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/glfw/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "lib/glfw/src/glfw3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "lib/glfw/src/glfw_config.h.in"
+		},
+		{
+			"path" : "lib/glfw/src/glfw3.pc.in"
+		},
+		{
+			"path" : "lib/glfw/cmake_uninstall.cmake.in"
+		},
+		{
+			"path" : "lib/glfw/src/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/glm/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/glm/glm/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindStandardMathLibrary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/EigenConfigureTesting.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/EigenTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/EigenDetermineVSServicePack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeDetermineVSServicePack.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/EigenDetermineOSVersion.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"path" : "lib/Eigen/CTestConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"path" : "lib/Eigen/CTestCustom.cmake.in"
+		},
+		{
+			"path" : "lib/Eigen/scripts/cdashtesting.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/Eigen3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/doc/Doxyfile.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/Doxyfile.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/eigendoxy_header.html.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/eigendoxy_footer.html.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/eigendoxy_layout.xml.in"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/doc/eigendoxy_layout.xml.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/examples/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/doc/special_examples/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindQt4.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/MacroAddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/doc/snippets/compile_snippet.cpp.in"
+		},
+		{
+			"path" : "lib/Eigen/test/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLanguage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindLAPACK.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindBLAS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckFortranFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindCHOLMOD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindUMFPACK.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindKLU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindSuperLU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindPASTIX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindHWLOC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindSPQR.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindQt4.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/MacroAddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindBoost.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/EigenSmokeTestList.cmake"
+		},
+		{
+			"path" : "lib/Eigen/failtest/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/blas/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLanguage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/lapack/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLanguage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/Eigen/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/Eigen/CXX11/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/doc/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/doc/examples/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/doc/snippets/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/unsupported/test/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindGoogleHash.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindAdolc.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindMPREAL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindMPFR.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/Eigen/cmake/FindFFTW.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindCUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindCUDA/select_compute_arch.cmake"
+		},
+		{
+			"path" : "lib/Eigen/demos/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindQt4.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCXXSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/MacroAddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"path" : "lib/Eigen/scripts/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Eigen/scripts/buildtests.in"
+		},
+		{
+			"path" : "lib/Eigen/scripts/check.in"
+		},
+		{
+			"path" : "lib/Eigen/scripts/debug.in"
+		},
+		{
+			"path" : "lib/Eigen/scripts/release.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/marce/UFRGS/pbd/out/build/x64-Debug",
+		"source" : "C:/Users/marce/UFRGS/pbd"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

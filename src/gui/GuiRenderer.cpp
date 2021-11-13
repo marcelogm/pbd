@@ -1,4 +1,4 @@
-#include "gui.hpp"
+            #include "gui.hpp"
 
 void GuiRenderer::render() {
 	auto const config = Configuration::getInstance();
@@ -18,8 +18,9 @@ void GuiRenderer::render() {
 	ImGui::End();
 
 	ImGui::Begin("Simulation", NULL, ImGuiWindowFlags_AlwaysAutoResize);
-	ImGui::SliderFloat("Position", &config->getSimulationParams()->gravityModifier, 0.00001f, 1.0f, "%.5f", ImGuiSliderFlags_Logarithmic);
-	ImGui::SliderInt("Solver Iterations", &config->getSimulationParams()->iterations, 1, 100, "%d", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("Gravity Modifier", &config->getSimulationParams()->gravityModifier, 0.00001f, 2.0f, "%.5f", ImGuiSliderFlags_Logarithmic);
+	ImGui::SliderInt("Solver Iterations", &config->getSimulationParams()->iterations, 1, 10, "%d", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("Stiffness", &config->getSimulationParams()->stiffness, 0.01, 0.99, "%.2f", ImGuiSelectableFlags_None);
 	ImGui::End();
 
 	ImGui::Render();

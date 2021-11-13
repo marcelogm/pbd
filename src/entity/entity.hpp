@@ -47,23 +47,30 @@ typedef struct {
 	}
 } EdgeComparator;
 
+typedef struct {
+	float mass;
+	float inverse;
+} Mass;
+
 class Object {
 private:
 	vector<vec3> vertices;
 	vector<vec3> normals;
 	vector<vec3> estimate;
 	vector<vec3> velocities;
+	vector<Mass> masses;
 	vector<Triangle> triangles;
 	set<Edge, EdgeComparator> edges;
 	map<Edge, vector<Triangle>, EdgeComparator> adjacents;
 	void updateEdges();
 public:
 	Object();
-	Object(vector<vec3>, vector<vec3>, vector<Triangle>);
+	Object(vector<vec3>, vector<vec3>, vector<Triangle>, float particleMass);
 	vector<vec3>* getVertices();
 	vector<vec3>* getNormals();
 	vector<vec3>* getEstimate();
 	vector<vec3>* getVelocities();
+	vector<Mass>* getMasses();
 	vector<Triangle>* getTriangles();
 	set<Edge, EdgeComparator>* getEdges();
 	map<Edge, vector<Triangle>, EdgeComparator>* getAdjacentTriangles();
@@ -82,11 +89,6 @@ typedef struct {
 	GLuint shader;
 } OpenGLObjectInformation;
 
-typedef struct {
-	float mass;
-	float inverse;
-} Mass;
-
 class Entity {
 private:
 	Object original;
@@ -96,7 +98,6 @@ private:
 	mat4 model;
 	vec4 color;
 	bool gravity;
-	Mass mass;
 	OpenGLObjectInformation info;
 public:
 	Entity(Object object, vector<ShaderInfo> shaders, vec4 color, mat4 model, bool gravity, float mass);

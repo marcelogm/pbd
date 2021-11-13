@@ -9,14 +9,16 @@ Object::Object() {
 	this->updateEdges();
 }
 
-Object::Object(vector<vec3> vertices, vector<vec3> normals, vector<Triangle> triangles) {
+Object::Object(vector<vec3> vertices, vector<vec3> normals, vector<Triangle> triangles, float particleMass) {
 	this->vertices = vertices;
+	this->estimate = vertices;
 	this->normals = normals;
 	this->triangles = triangles;
-	this->estimate = vector<vec3>(vertices.size()); 
 	this->velocities = vector<vec3>(vertices.size());
+	this->masses = vector<Mass>(vertices.size());
 	for (size_t i = 0; i < vertices.size(); i++) {
-		this->velocities.at(i) = vec3(0.1f);
+		this->velocities.at(i) = vec3(0.0f);
+		this->masses.at(i) = { particleMass, 1.f / particleMass };
 	}
 	this->updateEdges();
 }
@@ -55,6 +57,10 @@ vector<vec3>* Object::getEstimate() {
 
 vector<vec3>* Object::getVelocities() {
 	return &velocities;
+}
+
+vector<Mass>* Object::getMasses() {
+	return &masses;
 }
 
 vector<Triangle>* Object::getTriangles() {

@@ -1,0 +1,180 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/marce/UFRGS/pbd/out/build/NonLinearOptimization.exe"
+		},
+		{
+			"path" : "C:/Users/marce/UFRGS/pbd/out/build/NonLinearOptimization.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ei_add_test_internal",
+			"ei_add_test",
+			"LINK_DIRECTORIES",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"lib/Eigen/cmake/EigenTesting.cmake",
+			"lib/Eigen/unsupported/test/CMakeLists.txt",
+			"CMakeLists.txt",
+			"lib/Eigen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 421,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714 /D_CRT_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS /MD /Zi /O2 /Ob1 /DNDEBUG"
+				},
+				{
+					"fragment" : " -DEIGEN_TEST_MAX_SIZE=320 /bigobj  -DEIGEN_TEST_PART_ALL=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/marce/UFRGS/pbd/lib/Eigen"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/marce/UFRGS/pbd/lib/Eigen/unsupported/test/../../test"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/marce/UFRGS/pbd/lib/Eigen/unsupported/test/../../unsupported"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/marce/UFRGS/pbd/lib/Eigen/unsupported/test/../../Eigen"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/marce/UFRGS/pbd/out/build/x64-Release/lib/Eigen/unsupported/test/../../test"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "NonLinearOptimization::@a9337e7f9308850bee90",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714 /D_CRT_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\Users\\marce\\UFRGS\\pbd\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "NonLinearOptimization",
+	"nameOnDisk" : "NonLinearOptimization.exe",
+	"paths" : 
+	{
+		"build" : "lib/Eigen/unsupported/test",
+		"source" : "lib/Eigen/unsupported/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Eigen/unsupported/test/NonLinearOptimization.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

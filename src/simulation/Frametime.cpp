@@ -31,6 +31,9 @@ double Frametime::getFrametime() {
 }
 
 double Frametime::getDelta() {
+	if (this->timeFrameDiff == INFINITE) {
+		return 0.1;
+	}
 	return this->timeFrameDiff;
 }
 

@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"lib/Eigen/demos/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "demos::@0ea4def4d98ebc0bbbb5",
+	"name" : "demos",
+	"paths" : 
+	{
+		"build" : "lib/Eigen/demos",
+		"source" : "lib/Eigen/demos"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -63,3 +63,34 @@ Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/Commo
 
 
 
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: C:/Users/marce/UFRGS/pbd/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9da2d && [1/2] Building CXX object CMakeFiles\cmTC_9da2d.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_9da2d.exe
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: C:/Users/marce/UFRGS/pbd/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6011e && [1/2] Building CXX object CMakeFiles\cmTC_6011e.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_6011e.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_FPFAST succeeded with the following output:
+Change Dir: C:/Users/marce/UFRGS/pbd/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e8758 && [1/2] Building CXX object CMakeFiles\cmTC_e8758.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_e8758.exe
+
+
+Source file was:
+int main() { return 0; }

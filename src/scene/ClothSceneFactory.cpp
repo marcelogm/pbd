@@ -7,13 +7,13 @@ Scene* ClothSceneFactory::build() {
 			{ GL_FRAGMENT_SHADER, "resources/shaders/shader.frag" },
 			{ GL_NONE, NULL }
 	};
-	Entity* flag = new Entity(
-		provider.get("resources/cloth.obj"),
+	Entity* bar = new Entity(
+		provider.get("resources/bar.obj"),
 		shaders,
 		vec4(0.39f, 0.83f, 0.71f, 1.0f),
 		mat4(1),
-		false,
-		2.0f
+		true,
+		1.0f
 	);
 	Entity* floor = new Entity(
 		provider.get("resources/plane.obj"),
@@ -21,19 +21,20 @@ Scene* ClothSceneFactory::build() {
 		vec4(1.0f, 1.0f, 1.0f, 1.0f),
 		glm::translate(mat4(1), vec3(0.0f, -10.0f, 0.0f)),
 		false,
-		2.0f
+		0.0f
 	);
-	vector<Entity*> entities = { floor, flag };
-	vector<Constraint*> c = vector<Constraint*>();
-
-	vector<Constraint*> bendable = BendConstraintFactory().create(flag, {});
-	c.insert(c.end(), bendable.begin(), bendable.end());
-	vector<Constraint*> rigid = RidigBodyConstraintFactory().create(flag);
-	c.insert(c.end(), rigid.begin(), rigid.end());
+	vector<Entity*> entities = { floor, bar };
+	vector<Constraint*> constraints = vector<Constraint*>();
+	vector<Constraint*> rigid = RidigBodyConstraintFactory().create(bar);
+	constraints.push_back(new AnchorConstraint(bar, 1, vec3(-0.100000, -0.100000, 2.000000)));
+	constraints.push_back(new AnchorConstraint(bar, 3, vec3(-0.100000, 0.100000, 2.000000)));
+	constraints.push_back(new AnchorConstraint(bar, 5, vec3(0.100000, -0.100000, 2.000000)));
+	constraints.push_back(new AnchorConstraint(bar, 7, vec3(0.100000, 0.100000, 2.000000)));
+	constraints.insert(constraints.end(), rigid.begin(), rigid.end());
 	Scene* scene = new Scene(
 		entities,
-		new Camera(vec3(12.0f, 0.0f, 13.0f), vec3(-0.5f, 0.0f, -0.7), -130, 0),
-		c
+		new Camera(vec3(3.9f, 0.0f, 0.0f), vec3(-1.f, 0.0f, 8.7), -180, 0),
+		constraints
 	);
 	return scene;
 }

@@ -20,12 +20,14 @@ foreach(OUTPUTCONFIG ${CMAKE_CONFIGURATION_TYPES})
 	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_${OUTPUTCONFIG} ${CMAKE_SOURCE_DIR}/lib)
 endforeach(OUTPUTCONFIG CMAKE_CONFIGURATION_TYPES)
 
+find_package(Eigen3 REQUIRED)
 find_package(OpenGL REQUIRED)
 
 add_subdirectory(lib/glfw)
 add_subdirectory(lib/glm)
+add_subdirectory(lib/Eigen)
 
-set(COMMON_LIBS pbd ${OPENGL_LIBRARIES} glfw glm)
+set(COMMON_LIBS pbd ${OPENGL_LIBRARIES} glfw glm Eigen3::Eigen)
 set(COMMON_HEADERS include/vgl.h)
 set(COMMON_HEADERS include/stb_image.h)
 set(COMMON_HEADERS include/stb_image_write.h)
@@ -57,11 +59,12 @@ add_library(pbd
 			"src/gui/CommandStrategy.cpp" 
 			"src/simulation/Simulator.cpp"
 			"src/simulation/Gravity.cpp" 
+			"src/simulation/constraints/AnchorConstraint.cpp"
 			"src/simulation/constraints/BendConstraint.cpp"
 			"src/simulation/constraints/BendConstraintFactory.cpp"  
 			"src/simulation/constraints/DistanceConstraint.cpp" 
 			"src/simulation/constraints/RigidBodyConstraintFactory.cpp")
-
+			
 find_package(OpenMP)
 if (OPENMP_FOUND)
 	set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
@@ -75,3 +78,4 @@ include_directories(include)
 include_directories(lib/glfw/include)
 include_directories(lib/glm)
 include_directories(lib/imgui)
+include_directories(lib/Eigen)

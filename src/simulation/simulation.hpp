@@ -7,7 +7,7 @@ class Gravity {
 private:
 	const float ACCELERATION = 9.80665f;
 public:
-	void apply(vector<Entity*>*);
+	void apply(vector<Entity*>* entities, float delta_t);
 };
 
 class Frametime {
@@ -32,9 +32,11 @@ public:
 
 class Simulator {
 private:
+	Gravity* gravity;
 	size_t iterations = 25;
 public:
 	void update(Scene* scene);
 	void semiImplicitEuler(Entity* entity, const float delta_t);
 	void updatePositionsAndVelocities(Entity* entity, const float delta_t);
+	Simulator();
 };

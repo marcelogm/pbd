@@ -17,6 +17,7 @@ typedef struct {
 typedef struct {
 	float gravityModifier;
 	int iterations;
+	float stiffness;
 } SimulationParams;
 
 class Configuration {

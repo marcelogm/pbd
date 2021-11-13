@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/marce/UFRGS/pbd/out/build/x64-Release/lib/glfw/cmake_install.cmake")
   include("C:/Users/marce/UFRGS/pbd/out/build/x64-Release/lib/glm/cmake_install.cmake")
+  include("C:/Users/marce/UFRGS/pbd/out/build/x64-Release/lib/Eigen/cmake_install.cmake")
 
 endif()
 

@@ -6,7 +6,6 @@ Entity::Entity(Object object, vector<ShaderInfo> shaders, vec4 color, mat4 model
 	this->color = color;
 	this->model = model;
 	this->gravity = gravity;
-	this->mass = { mass, (1.0f / mass) };
 	this->normalBuffer = new vector<vec3>(this->actual.getTriangles()->size() * 3);
 	this->vertexBuffer = new vector<vec3>(this->actual.getTriangles()->size() * 3);
 
@@ -38,13 +37,10 @@ bool Entity::isAffectedByGravity() {
 	return gravity;
 }
 
-Mass Entity::getMass() {
-	return this->mass;
-}
-
 void Entity::update() {
 	const vector<vec3>* vertices = this->actual.getVertices();
 	const vector<vec3>* normals = this->actual.getNormals();
+	#pragma unroll
 	for (size_t i = 0; i < this->actual.getTriangles()->size(); i++) {
 		const Triangle triangle = this->actual.getTriangles()->at(i);
 		#pragma unroll
