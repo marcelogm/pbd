@@ -259,6 +259,22 @@ build CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraintFactory.cpp.ob
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
+build CMakeFiles\pbd.dir\src\simulation\constraints\DistanceConstraint.cpp.obj: CXX_COMPILER__pbd_RelWithDebInfo ..\..\..\src\simulation\constraints\DistanceConstraint.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /Zi /O2 /Ob1 /DNDEBUG
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\simulation\constraints
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
+build CMakeFiles\pbd.dir\src\simulation\constraints\RigidBodyConstraintFactory.cpp.obj: CXX_COMPILER__pbd_RelWithDebInfo ..\..\..\src\simulation\constraints\RigidBodyConstraintFactory.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /Zi /O2 /Ob1 /DNDEBUG
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\simulation\constraints
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target pbd
@@ -267,7 +283,7 @@ build CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraintFactory.cpp.ob
 #############################################
 # Link the static library lib\pbd.lib
 
-build lib\pbd.lib: CXX_STATIC_LIBRARY_LINKER__pbd_RelWithDebInfo CMakeFiles\pbd.dir\lib\gl3w.c.obj CMakeFiles\pbd.dir\lib\LoadShaders.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_demo.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_draw.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_widgets.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_tables.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_opengl3.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\pbd.dir\src\Application.cpp.obj CMakeFiles\pbd.dir\src\simulation\Frametime.cpp.obj CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj CMakeFiles\pbd.dir\src\entity\ObjectProvider.cpp.obj CMakeFiles\pbd.dir\src\entity\Object.cpp.obj CMakeFiles\pbd.dir\src\entity\Entity.cpp.obj CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj CMakeFiles\pbd.dir\src\scene\ClothSceneFactory.cpp.obj CMakeFiles\pbd.dir\src\gui\GuiRenderer.cpp.obj CMakeFiles\pbd.dir\src\gui\WindowEngine.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandService.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\pbd.dir\src\simulation\Simulator.cpp.obj CMakeFiles\pbd.dir\src\simulation\Gravity.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraintFactory.cpp.obj
+build lib\pbd.lib: CXX_STATIC_LIBRARY_LINKER__pbd_RelWithDebInfo CMakeFiles\pbd.dir\lib\gl3w.c.obj CMakeFiles\pbd.dir\lib\LoadShaders.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_demo.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_draw.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_widgets.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_tables.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_opengl3.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\pbd.dir\src\Application.cpp.obj CMakeFiles\pbd.dir\src\simulation\Frametime.cpp.obj CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj CMakeFiles\pbd.dir\src\entity\ObjectProvider.cpp.obj CMakeFiles\pbd.dir\src\entity\Object.cpp.obj CMakeFiles\pbd.dir\src\entity\Entity.cpp.obj CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj CMakeFiles\pbd.dir\src\scene\ClothSceneFactory.cpp.obj CMakeFiles\pbd.dir\src\gui\GuiRenderer.cpp.obj CMakeFiles\pbd.dir\src\gui\WindowEngine.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandService.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\pbd.dir\src\simulation\Simulator.cpp.obj CMakeFiles\pbd.dir\src\simulation\Gravity.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraintFactory.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\DistanceConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\RigidBodyConstraintFactory.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /Zi /O2 /Ob1 /DNDEBUG
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = CMakeFiles\pbd.dir
@@ -329,22 +345,6 @@ build CMakeFiles\main.dir\src\main.cpp.obj: CXX_COMPILER__main_RelWithDebInfo ..
   TARGET_COMPILE_PDB = CMakeFiles\main.dir\
   TARGET_PDB = ..\main.pdb
 
-build CMakeFiles\main.dir\src\gui\CommandStrategy.cpp.obj: CXX_COMPILER__main_RelWithDebInfo ..\..\..\src\gui\CommandStrategy.cpp || cmake_object_order_depends_target_main
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui -I..\..\..\lib\glm\glm\..
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src\gui
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = ..\main.pdb
-
-build CMakeFiles\main.dir\src\simulation\constraints\BendConstraintFactory.cpp.obj: CXX_COMPILER__main_RelWithDebInfo ..\..\..\src\simulation\constraints\BendConstraintFactory.cpp || cmake_object_order_depends_target_main
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui -I..\..\..\lib\glm\glm\..
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\src\simulation\constraints
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = ..\main.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -353,7 +353,7 @@ build CMakeFiles\main.dir\src\simulation\constraints\BendConstraintFactory.cpp.o
 #############################################
 # Link the executable ..\main.exe
 
-build ..\main.exe: CXX_EXECUTABLE_LINKER__main_RelWithDebInfo CMakeFiles\main.dir\src\main.cpp.obj CMakeFiles\main.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\main.dir\src\simulation\constraints\BendConstraintFactory.cpp.obj | lib\pbd.lib lib\glfw3.lib || lib\glfw3.lib lib\pbd.lib
+build ..\main.exe: CXX_EXECUTABLE_LINKER__main_RelWithDebInfo CMakeFiles\main.dir\src\main.cpp.obj | lib\pbd.lib lib\glfw3.lib || lib\glfw3.lib lib\pbd.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MD /Zi /O2 /Ob1 /DNDEBUG
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = lib\pbd.lib  opengl32.lib  glu32.lib  lib\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

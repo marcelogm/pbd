@@ -31,6 +31,8 @@ public:
 	Scene(vector<Entity*> entities, Camera* camera, vector<Constraint*> constraints);
 	void render();
 	Camera* getCamera();
+	vector<Constraint*> getConstraints();
+	vector<Entity*> getEntities();
 };
 
 class ClothSceneFactory {

@@ -46,6 +46,14 @@ vector<Triangle>* Object::getTriangles() {
 	return &triangles;
 }
 
+set<Edge, EdgeComparator>* Object::getEdges() {
+	return &edges;
+}
+
+map<Edge, vector<Triangle>, EdgeComparator>* Object::getAdjacentTriangles() {
+	return &adjacents;
+}
+
 size_t Object::getVerticesCount() {
 	return triangles.size() * 3;
 }

@@ -41,25 +41,25 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 69,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 70,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 71,
+				"line" : 77,
 				"parent" : 0
 			}
 		]
@@ -157,7 +157,12 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24,
+				25,
+				26,
+				27,
+				28
 			]
 		}
 	],
@@ -198,7 +203,12 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24,
+				25,
+				26,
+				27,
+				28
 			]
 		}
 	],
@@ -315,6 +325,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
+			"path" : "src/scene/ClothSceneFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
 			"path" : "src/gui/GuiRenderer.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -339,13 +355,37 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "src/simulation/Solver.cpp",
+			"path" : "src/simulation/Simulator.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/simulation/Gravity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/simulation/constraints/BendConstraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/simulation/constraints/BendConstraintFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/simulation/constraints/DistanceConstraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/simulation/constraints/RigidBodyConstraintFactory.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

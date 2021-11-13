@@ -41,18 +41,6 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 72,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 73,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
 				"line" : 74,
 				"parent" : 0
 			},
@@ -60,6 +48,18 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 77,
 				"parent" : 0
 			}
 		]
@@ -160,7 +160,9 @@
 				23,
 				24,
 				25,
-				26
+				26,
+				27,
+				28
 			]
 		}
 	],
@@ -204,7 +206,9 @@
 				23,
 				24,
 				25,
-				26
+				26,
+				27,
+				28
 			]
 		}
 	],
@@ -370,6 +374,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/simulation/constraints/BendConstraintFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/simulation/constraints/DistanceConstraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/simulation/constraints/RigidBodyConstraintFactory.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

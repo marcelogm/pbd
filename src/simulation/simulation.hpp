@@ -35,4 +35,6 @@ private:
 	size_t iterations = 25;
 public:
 	void update(Scene* scene);
+	void semiImplicitEuler(Entity* entity, const float delta_t);
+	void updatePositionsAndVelocities(Entity* entity, const float delta_t);
 };

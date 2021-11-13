@@ -3,7 +3,7 @@
 Configuration::Configuration() {
 	this->viewport = { 1200.0f, 800.0f };
 	this->light = { vec4(5.0f, 10.0f, 2.0f, 1.0f), 0.5f, 0.5f };
-	this->params = { 0.01f };
+	this->params = { 0.01f, 5 };
 };
 
 Configuration* Configuration::getInstance() {

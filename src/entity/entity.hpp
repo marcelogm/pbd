@@ -12,6 +12,7 @@
 #include <fstream>
 #include <LoadShaders.h>
 #include <algorithm>
+#include "../camera/camera.hpp"
 
 using std::string;
 using glm::vec3;
@@ -60,6 +61,8 @@ public:
 	vector<vec3>* getVertices();
 	vector<vec3>* getNormals();
 	vector<Triangle>* getTriangles();
+	set<Edge, EdgeComparator>* getEdges();
+	map<Edge, vector<Triangle>, EdgeComparator>* getAdjacentTriangles();
 	size_t getVerticesCount();
 };
 
@@ -75,25 +78,34 @@ typedef struct {
 	GLuint shader;
 } OpenGLObjectInformation;
 
+typedef struct {
+	float mass;
+	float inverse;
+} Mass;
+
 class Entity {
 private:
 	Object original;
 	Object actual;
-	vector<vec3> vertices;
-	vector<vec3> estimate;
-	vector<vec3> normals;
+	vector<vec3>* vertices;
+	vector<vec3>* normals;
+	vector<vec3>* estimate;
+	vector<vec3>* velocities;
 	mat4 model;
 	vec4 color;
 	bool gravity;
-	float inverseMass;
+	Mass mass;
 	OpenGLObjectInformation info;
 public:
 	Entity(Object object, vector<ShaderInfo> shaders, vec4 color, mat4 model, bool gravity, float mass);
-	void update();
 	OpenGLObjectInformation getOpenGLInformation();
 	mat4* getModel();
 	vector<vec3>* getVertices();
 	vector<vec3>* getNormals();
+	vector<vec3>* getVelocities();
+	vector<vec3>* getPositionEstimate();
+	Object* getObject();
 	vec4* getColor();
 	bool isAffectedByGravity();
+	Mass getMass();
 };

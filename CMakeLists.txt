@@ -46,7 +46,7 @@ add_library(pbd
 			"src/configuration/Configuration.cpp" 
 			"src/camera/Camera.cpp"  
 			"src/entity/ObjectProvider.cpp"
-			"src/entity/Object.cpp" 
+			"src/entity/Object.cpp"
 			"src/entity/Entity.cpp"
 			"src/scene/Scene.cpp"
 			"src/scene/Renderer.cpp"
@@ -58,7 +58,9 @@ add_library(pbd
 			"src/simulation/Simulator.cpp"
 			"src/simulation/Gravity.cpp" 
 			"src/simulation/constraints/BendConstraint.cpp"
-			"src/simulation/constraints/BendConstraintFactory.cpp")
+			"src/simulation/constraints/BendConstraintFactory.cpp"  
+			"src/simulation/constraints/DistanceConstraint.cpp" 
+			"src/simulation/constraints/RigidBodyConstraintFactory.cpp")
 
 find_package(OpenMP)
 if (OPENMP_FOUND)
@@ -66,7 +68,7 @@ if (OPENMP_FOUND)
 	set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-add_executable(main WIN32 src/main.cpp ${COMMON_HEADERS} "src/gui/CommandStrategy.cpp" "src/simulation/constraints/BendConstraintFactory.cpp")
+add_executable(main WIN32 src/main.cpp ${COMMON_HEADERS})
 target_link_libraries(main ${COMMON_LIBS})
 
 include_directories(include)

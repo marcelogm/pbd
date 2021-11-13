@@ -7,7 +7,7 @@ Scene* ClothSceneFactory::build() {
 			{ GL_FRAGMENT_SHADER, "resources/shaders/shader.frag" },
 			{ GL_NONE, NULL }
 	};
-	Entity* floor = new Entity(
+	Entity* flag = new Entity(
 		provider.get("resources/cloth.obj"),
 		shaders,
 		vec4(0.39f, 0.83f, 0.71f, 1.0f),
@@ -15,7 +15,7 @@ Scene* ClothSceneFactory::build() {
 		false,
 		2.0f
 	);
-	Entity* flag = new Entity(
+	Entity* floor = new Entity(
 		provider.get("resources/plane.obj"),
 		shaders,
 		vec4(1.0f, 1.0f, 1.0f, 1.0f),
@@ -24,11 +24,16 @@ Scene* ClothSceneFactory::build() {
 		2.0f
 	);
 	vector<Entity*> entities = { floor, flag };
-	vector<Constraint*> contraints = BendConstraintFactory().create(flag, {});
+	vector<Constraint*> c = vector<Constraint*>();
+
+	vector<Constraint*> bendable = BendConstraintFactory().create(flag, {});
+	c.insert(c.end(), bendable.begin(), bendable.end());
+	vector<Constraint*> rigid = RidigBodyConstraintFactory().create(flag);
+	c.insert(c.end(), rigid.begin(), rigid.end());
 	Scene* scene = new Scene(
 		entities,
 		new Camera(vec3(12.0f, 0.0f, 13.0f), vec3(-0.5f, 0.0f, -0.7), -130, 0),
-		contraints
+		c
 	);
 	return scene;
 }

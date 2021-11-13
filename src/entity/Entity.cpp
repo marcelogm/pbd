@@ -7,9 +7,11 @@ Entity::Entity(Object object, vector<ShaderInfo> shaders, vec4 color, mat4 model
 	this->model = model;
 	this->gravity = gravity;
 	// Isso deve virar um vetor
-	this->inverseMass = 1.0f / mass;
-	this->vertices = vector<vec3>(this->actual.getVerticesCount());
-	this->normals = vector<vec3>(this->actual.getVerticesCount());
+	this->mass = { mass, (1.0f / mass) };
+	this->vertices = new vector<vec3>(this->actual.getVerticesCount());
+	this->estimate = new vector<vec3>(this->actual.getVerticesCount());
+	this->velocities = new vector<vec3>(this->actual.getVerticesCount());
+	this->normals = new vector<vec3>(this->actual.getVerticesCount());
 
 	this->info = {};
 	this->info.shader = LoadShaders(&shaders.front());
@@ -17,17 +19,19 @@ Entity::Entity(Object object, vector<ShaderInfo> shaders, vec4 color, mat4 model
 	glGenBuffers(1, &this->info.positionVBO);
 	glGenBuffers(1, &this->info.normalVBO);
 	glBindVertexArray(this->info.VAO);
-}
 
-void Entity::update() {
+	// pre compute 
+	// TODO: isso pode virar uma funcao
 	const vector<vec3>* rawVertices = this->actual.getVertices();
 	const vector<vec3>* rawNormals = this->actual.getNormals();
 	for (size_t i = 0; i < this->actual.getTriangles()->size(); i++) {
 		const Triangle triangle = this->actual.getTriangles()->at(i);
 		#pragma unroll
 		for (size_t j = 0; j < 3; j++) {
-			vertices[(i * 3) + j] = rawVertices->at(triangle.vertices[j].position);
-			normals[(i * 3) + j] = rawNormals->at(triangle.vertices[j].normal);
+			vertices->at((i * 3) + j) = rawVertices->at(triangle.vertices[j].position);
+			estimate->at((i * 3) + j) = rawVertices->at(triangle.vertices[j].position);
+			normals->at((i * 3) + j) = rawNormals->at(triangle.vertices[j].normal);
+			velocities->at((i * 3) + j) = vec3(0);
 		}
 	}
 }
@@ -41,11 +45,23 @@ mat4* Entity::getModel() {
 }
 
 vector<vec3>* Entity::getVertices() {
-	return &this->vertices;
+	return this->vertices;
 }
 
 vector<vec3>* Entity::getNormals() {
-	return &this->normals;
+	return this->normals;
+}
+
+vector<vec3>* Entity::getVelocities() {
+	return this->velocities;
+}
+
+vector<vec3>* Entity::getPositionEstimate() {
+	return this->estimate;
+}
+
+Object* Entity::getObject() {
+	return &this->actual;
 }
 
 vec4* Entity::getColor() {
@@ -55,3 +71,8 @@ vec4* Entity::getColor() {
 bool Entity::isAffectedByGravity() {
 	return gravity;
 }
+
+Mass Entity::getMass() {
+	return this->mass;
+}
+
