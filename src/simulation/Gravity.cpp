@@ -6,8 +6,9 @@ void Gravity::apply(vector<Entity*>* entities) {
 
 	for (size_t i = 0; i < entities->size(); i++) {
 		Entity* entity = entities->at(i);
-		for (size_t j = 0; j < entity->getVertices()->size() && entity->isAffectedByGravity(); j++) {
-			vector<vec3>* vertices = entity->getVertices();
+		Object* object = entity->getObject();
+		for (size_t j = 0; j < object->getVertices()->size() && entity->isAffectedByGravity(); j++) {
+			vector<vec3>* vertices = object->getVertices();
 			vertices->at(j) = vertices->at(j) + ((delta * vec3(0.f, -this->ACCELERATION, 0.f)) * params->gravityModifier);
 		}
 	}

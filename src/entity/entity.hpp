@@ -51,6 +51,8 @@ class Object {
 private:
 	vector<vec3> vertices;
 	vector<vec3> normals;
+	vector<vec3> estimate;
+	vector<vec3> velocities;
 	vector<Triangle> triangles;
 	set<Edge, EdgeComparator> edges;
 	map<Edge, vector<Triangle>, EdgeComparator> adjacents;
@@ -60,6 +62,8 @@ public:
 	Object(vector<vec3>, vector<vec3>, vector<Triangle>);
 	vector<vec3>* getVertices();
 	vector<vec3>* getNormals();
+	vector<vec3>* getEstimate();
+	vector<vec3>* getVelocities();
 	vector<Triangle>* getTriangles();
 	set<Edge, EdgeComparator>* getEdges();
 	map<Edge, vector<Triangle>, EdgeComparator>* getAdjacentTriangles();
@@ -87,10 +91,8 @@ class Entity {
 private:
 	Object original;
 	Object actual;
-	vector<vec3>* vertices;
-	vector<vec3>* normals;
-	vector<vec3>* estimate;
-	vector<vec3>* velocities;
+	vector<vec3>* vertexBuffer;
+	vector<vec3>* normalBuffer;
 	mat4 model;
 	vec4 color;
 	bool gravity;
@@ -99,13 +101,12 @@ private:
 public:
 	Entity(Object object, vector<ShaderInfo> shaders, vec4 color, mat4 model, bool gravity, float mass);
 	OpenGLObjectInformation getOpenGLInformation();
-	mat4* getModel();
-	vector<vec3>* getVertices();
-	vector<vec3>* getNormals();
-	vector<vec3>* getVelocities();
-	vector<vec3>* getPositionEstimate();
 	Object* getObject();
+	mat4* getModel();
 	vec4* getColor();
 	bool isAffectedByGravity();
 	Mass getMass();
+	void update();
+	vector<vec3>* getRenderedVertices();
+	vector<vec3>* getRenderedNormals();
 };

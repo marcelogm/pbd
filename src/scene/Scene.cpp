@@ -11,6 +11,7 @@ void Scene::render() {
 	this->renderer->clear();
     this->renderer->prepare();
 	for (Entity* entity : this->entities) {
+		entity->update();
         this->renderer->render(entity, this->camera, Configuration::getInstance()->getLight());
 	}
 }

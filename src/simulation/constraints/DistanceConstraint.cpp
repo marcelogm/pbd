@@ -11,9 +11,9 @@ DistanceConstraint::DistanceConstraint(Entity* current, size_t x1, size_t x2, fl
 }
 
 void DistanceConstraint::project() {
-	auto p1 = current->getVelocities()->at(x1);
-	auto p2 = current->getVelocities()->at(x2);
+	auto object = current->getObject();
+	// auto p2 = current->getVelocities()->at(x2);
 
-	float a = glm::l2Norm(p1 - p2) - this->distance;
+	// float a = glm::l2Norm(p1 - p2) - this->distance;
 
 }

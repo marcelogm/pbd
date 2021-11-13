@@ -29,9 +29,10 @@ void Simulator::update(Scene* scene) {
 }
 
 void Simulator::semiImplicitEuler(Entity* entity, const float delta_t) {
-	const auto positions = entity->getVertices();
-	const auto velocities = entity->getVertices();
-	auto p = entity->getPositionEstimate();
+	const auto object = entity->getObject();
+	const auto positions = object->getVertices();
+	const auto velocities = object->getVelocities();
+	auto p = object->getEstimate();
 	for (size_t i = 0; i < positions->size(); i++) {
 		const auto x = positions->at(i);
 		const auto v = velocities->at(i);
@@ -40,11 +41,12 @@ void Simulator::semiImplicitEuler(Entity* entity, const float delta_t) {
 }
 
 void Simulator::updatePositionsAndVelocities(Entity* entity, const float delta_t) {
-	for (size_t j = 0; j < entity->getVertices()->size(); j++) {
-		const auto p = entity->getPositionEstimate()->at(j);
-		const auto x = entity->getVertices()->at(j);
+	const auto object = entity->getObject();
+	for (size_t j = 0; j < object->getVertices()->size(); j++) {
+		const auto p = object->getEstimate()->at(j);
+		const auto x = object->getVertices()->at(j);
 		// first order
-		entity->getVelocities()->at(j) = (p - x) / delta_t;
-		entity->getVertices()->at(j) = p;
+		object->getVelocities()->at(j) = (p - x) / delta_t;
+		object->getVertices()->at(j) = p;
 	}
 }

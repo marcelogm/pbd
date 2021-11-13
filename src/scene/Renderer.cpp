@@ -22,9 +22,9 @@ void Renderer::render(Entity* entity, Camera* camera, LightConfiguration* ligth)
 
     glBindVertexArray(info.VAO);
     glBindBuffer(GL_ARRAY_BUFFER, info.positionVBO);
-    glBufferData(GL_ARRAY_BUFFER, entity->getVertices()->size() * sizeof(vec3), entity->getVertices()->data(), GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, entity->getRenderedVertices()->size() * sizeof(vec3), entity->getRenderedVertices()->data(), GL_STATIC_DRAW);
     glBindBuffer(GL_ARRAY_BUFFER, info.normalVBO);
-    glBufferData(GL_ARRAY_BUFFER, entity->getNormals()->size() * sizeof(vec3), entity->getNormals()->data(), GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, entity->getRenderedNormals()->size() * sizeof(vec3), entity->getRenderedNormals()->data(), GL_STATIC_DRAW);
 
     glUseProgram(info.shader);
     glUniformMatrix4fv(glGetUniformLocation(info.shader, "model"), 1, GL_FALSE, value_ptr(model));
@@ -47,7 +47,7 @@ void Renderer::render(Entity* entity, Camera* camera, LightConfiguration* ligth)
     glBindBuffer(GL_ARRAY_BUFFER, info.normalVBO);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
 
-    glDrawArrays(GL_TRIANGLES, 0, entity->getVertices()->size());
+    glDrawArrays(GL_TRIANGLES, 0, entity->getRenderedVertices()->size());
     glDisableVertexAttribArray(0);
     glDisableVertexAttribArray(1);
 }
