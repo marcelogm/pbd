@@ -7,13 +7,20 @@ Scene* ClothSceneFactory::build() {
 			{ GL_FRAGMENT_SHADER, "resources/shaders/shader.frag" },
 			{ GL_NONE, NULL }
 	};
-	Entity* bar = new Entity(
-		provider.get("resources/bar.obj"),
+	auto f1 = vec3(-0.8f, 0.2f, 0.8f);
+	auto f2 = vec3(-0.8f, 0.2f, -1.2f);
+	Configuration::getInstance()->getSimulationParams()->bendability = 0.010;
+	Configuration::getInstance()->getSimulationParams()->stiffness = 0.50;
+	Entity* b1 = getDebugBox(f1, 0.2, shaders);
+	Entity* b2 = getDebugBox(f2, 0.2, shaders);
+	Entity* cloth = new Entity(
+		provider.get("resources/tecido.obj"),
 		shaders,
 		vec4(0.39f, 0.83f, 0.71f, 1.0f),
-		mat4(1),
+		glm::scale(mat4(1), vec3(1.0f)),
 		true,
-		1.0f
+		1.0f,
+		false
 	);
 	Entity* floor = new Entity(
 		provider.get("resources/plane.obj"),
@@ -21,20 +28,34 @@ Scene* ClothSceneFactory::build() {
 		vec4(1.0f, 1.0f, 1.0f, 1.0f),
 		glm::translate(mat4(1), vec3(0.0f, -10.0f, 0.0f)),
 		false,
-		0.0f
+		0.0f,
+		true
 	);
-	vector<Entity*> entities = { floor, bar };
+	vector<Entity*> entities = { floor, cloth, b1, b2 };
 	vector<Constraint*> constraints = vector<Constraint*>();
-	vector<Constraint*> rigid = RidigBodyConstraintFactory().create(bar);
-	constraints.push_back(new AnchorConstraint(bar, 1, vec3(-0.100000, -0.100000, 2.000000)));
-	constraints.push_back(new AnchorConstraint(bar, 3, vec3(-0.100000, 0.100000, 2.000000)));
-	constraints.push_back(new AnchorConstraint(bar, 5, vec3(0.100000, -0.100000, 2.000000)));
-	constraints.push_back(new AnchorConstraint(bar, 7, vec3(0.100000, 0.100000, 2.000000)));
+	vector<Constraint*> rigid = RidigBodyConstraintFactory().create(cloth);
+	vector<Constraint*> bend = BendConstraintFactory().create(cloth);
+	constraints.push_back(new AnchorConstraint(cloth, 0, f1));
+	constraints.push_back(new AnchorConstraint(cloth, 2, f2));
+	constraints.insert(constraints.end(), bend.begin(), bend.end());
 	constraints.insert(constraints.end(), rigid.begin(), rigid.end());
 	Scene* scene = new Scene(
 		entities,
-		new Camera(vec3(3.9f, 0.0f, 0.0f), vec3(-1.f, 0.0f, 8.7), -180, 0),
+		new Camera(vec3(0.4f, -1.0f, 4.75f), vec3(-0.4f, 0.0f, -0.92), -113, 0),
 		constraints
 	);
 	return scene;
+}
+
+Entity* ClothSceneFactory::getDebugBox(vec3 position, float scale, vector<ShaderInfo> shaders) {
+	ObjectProvider provider = ObjectProvider();
+	return new Entity(
+		provider.get("resources/sphere.obj"),
+		shaders,
+		vec4(0.f, 0.10f, 0.20f, 1.0f),
+		glm::scale(glm::translate(mat4(1), position), vec3(scale)),
+		false,
+		1.0f,
+		false
+	);
 }

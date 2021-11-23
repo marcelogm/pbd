@@ -1,5 +1,4 @@
 #include "constraint.hpp"
-#include <glm/gtx/norm.hpp>
 
 size_t BendConstraintFactory::getRemainingVertex(Triangle* triangle, size_t p1, size_t p2) {
 	size_t out;
@@ -12,7 +11,7 @@ size_t BendConstraintFactory::getRemainingVertex(Triangle* triangle, size_t p1, 
 	return out;
 }
 
-vector<Constraint*> BendConstraintFactory::create(Entity* entity, ConstraintConfiguration config) {
+vector<Constraint*> BendConstraintFactory::create(Entity* entity) {
 	const auto object = entity->getObject();
 	const auto edges = object->getEdges();
 	const auto adjacents = object->getAdjacentTriangles();
@@ -28,9 +27,10 @@ vector<Constraint*> BendConstraintFactory::create(Entity* entity, ConstraintConf
 		const auto x2 = it.vertices[1].position;
 		const auto x3 = this->getRemainingVertex(&t1, x1, x2);
 		const auto x4 = this->getRemainingVertex(&t2, x1, x2);
-		const auto n1 = cross(vertices->at(x2), vertices->at(x3)) / l2Norm(cross(vertices->at(x2), vertices->at(x3)));
-		const auto n2 = cross(vertices->at(x2), vertices->at(x4)) / l2Norm(cross(vertices->at(x2), vertices->at(x4)));
-		const float dihedralAngle = acos(dot(n1, n2));
+
+		const auto normal1 = cross(vertices->at(x2), vertices->at(x3)) / glm::l2Norm(cross(vertices->at(x2), vertices->at(x3)));
+		const auto normal2 = cross(vertices->at(x2), vertices->at(x4)) / glm::l2Norm(cross(vertices->at(x2), vertices->at(x4)));
+		const float dihedralAngle = acosf(dot(normal1, normal2));
 		constraints.push_back(new BendConstraint(entity, x1, x2, x3, x4, dihedralAngle));
 	}
 	return constraints;

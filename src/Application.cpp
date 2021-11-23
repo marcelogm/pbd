@@ -5,8 +5,6 @@ Application::Application() {
 	glGenVertexArrays(1, &vertexArray);
 	glBindVertexArray(vertexArray);
 	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_CULL_FACE);
-	glFrontFace(GL_CCW);
 	glCullFace(GL_BACK);
 }
 

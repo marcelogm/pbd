@@ -12,15 +12,27 @@ void GuiRenderer::render() {
 	ImGui::End();
 
 	ImGui::Begin("Light", NULL, ImGuiWindowFlags_AlwaysAutoResize);
-	ImGui::SliderFloat3("Position", value_ptr(config->getLight()->lightPosition), -50, 50, "%.0f", ImGuiSliderFlags_None);
+	ImGui::SliderFloat3("Position", value_ptr(config->getLight()->lightPosition), -20, 20, "%.0f", ImGuiSliderFlags_None);
 	ImGui::SliderFloat("Ambient Strength", &config->getLight()->ambientLightStrength, 0, 1, "%.2f", ImGuiSliderFlags_None);
 	ImGui::SliderFloat("Difffuse Strength", &config->getLight()->diffuseLightStrength, 0, 1, "%.2f", ImGuiSliderFlags_None);
 	ImGui::End();
 
 	ImGui::Begin("Simulation", NULL, ImGuiWindowFlags_AlwaysAutoResize);
-	ImGui::SliderFloat("Gravity Modifier", &config->getSimulationParams()->gravityModifier, 0.00001f, 2.0f, "%.5f", ImGuiSliderFlags_Logarithmic);
-	ImGui::SliderInt("Solver Iterations", &config->getSimulationParams()->iterations, 1, 10, "%d", ImGuiSelectableFlags_None);
-	ImGui::SliderFloat("Stiffness", &config->getSimulationParams()->stiffness, 0.01, 0.99, "%.2f", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("Gravity Modifier", &config->getSimulationParams()->gravityModifier, 0.00001f, 100.0f, "%.5f", ImGuiSliderFlags_Logarithmic);
+	ImGui::SliderFloat("Wind Modifier", &config->getSimulationParams()->windModifier, 0.00001f, 100.0f, "%.5f", ImGuiSliderFlags_Logarithmic);
+	ImGui::SliderInt("Solver Iterations", &config->getSimulationParams()->iterations, 1, 20, "%d", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("Time step", &config->getSimulationParams()->step, 0.00001f, 0.1f, "%.5f", ImGuiSelectableFlags_None);
+	ImGui::SliderInt("Substeps", &config->getSimulationParams()->substeps, 1, 20, "%d", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("k (distance constraint)", &config->getSimulationParams()->stiffness, 0.001, 0.99, "%.2f", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("k (bend constraint)", &config->getSimulationParams()->bendability, 0.0001, 0.30, "%.5f", ImGuiSelectableFlags_None);
+	ImGui::Checkbox("LLT Decomposition", &config->getSimulationParams()->llt);
+
+	ImGui::End();
+
+	ImGui::Begin("Render mode", NULL, ImGuiWindowFlags_AlwaysAutoResize);
+	ImGui::RadioButton("Triangulos", (int *)&config->getOpenGLConfiguration()->mode, 0);
+	ImGui::RadioButton("Lines", (int*)&config->getOpenGLConfiguration()->mode, 1);
+	ImGui::RadioButton("Points", (int*)&config->getOpenGLConfiguration()->mode, 2);
 	ImGui::End();
 
 	ImGui::Render();

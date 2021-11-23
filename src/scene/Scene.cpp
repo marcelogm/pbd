@@ -5,6 +5,7 @@ Scene::Scene(vector<Entity*> entities, Camera* camera, vector<Constraint*> const
 	this->camera = camera;
 	this->renderer = new Renderer();
 	this->constraints = constrains;
+	this->collisionContraints = vector<Constraint*>();
 }
 
 void Scene::render() {
@@ -22,6 +23,10 @@ Camera* Scene::getCamera() {
 
 vector<Constraint*> Scene::getConstraints() {
 	return this->constraints;
+}
+
+vector<Constraint*> Scene::getCollisionConstraints() {
+	return this->collisionContraints;
 }
 
 vector<Entity*> Scene::getEntities() {

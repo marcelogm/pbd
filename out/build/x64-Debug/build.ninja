@@ -187,6 +187,22 @@ build CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj: CXX_COMPILER__pbd_Debug ..\
   TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
   TARGET_PDB = lib\pbd.pdb
 
+build CMakeFiles\pbd.dir\src\scene\TriangleSceneFactory.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\TriangleSceneFactory.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui -I..\..\..\lib\Eigen
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
+build CMakeFiles\pbd.dir\src\scene\FixedBarSceneFactory.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\FixedBarSceneFactory.cpp || cmake_object_order_depends_target_pbd
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui -I..\..\..\lib\Eigen
+  OBJECT_DIR = CMakeFiles\pbd.dir
+  OBJECT_FILE_DIR = CMakeFiles\pbd.dir\src\scene
+  TARGET_COMPILE_PDB = CMakeFiles\pbd.dir\pbd.pdb
+  TARGET_PDB = lib\pbd.pdb
+
 build CMakeFiles\pbd.dir\src\scene\ClothSceneFactory.cpp.obj: CXX_COMPILER__pbd_Debug ..\..\..\src\scene\ClothSceneFactory.cpp || cmake_object_order_depends_target_pbd
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -I..\..\..\include -I..\..\..\lib\glfw\include -I..\..\..\lib\glm -I..\..\..\lib\imgui -I..\..\..\lib\Eigen
@@ -291,7 +307,7 @@ build CMakeFiles\pbd.dir\src\simulation\constraints\RigidBodyConstraintFactory.c
 #############################################
 # Link the static library lib\pbd.lib
 
-build lib\pbd.lib: CXX_STATIC_LIBRARY_LINKER__pbd_Debug CMakeFiles\pbd.dir\lib\gl3w.c.obj CMakeFiles\pbd.dir\lib\LoadShaders.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_demo.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_draw.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_widgets.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_tables.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_opengl3.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\pbd.dir\src\Application.cpp.obj CMakeFiles\pbd.dir\src\simulation\Frametime.cpp.obj CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj CMakeFiles\pbd.dir\src\entity\ObjectProvider.cpp.obj CMakeFiles\pbd.dir\src\entity\Object.cpp.obj CMakeFiles\pbd.dir\src\entity\Entity.cpp.obj CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj CMakeFiles\pbd.dir\src\scene\ClothSceneFactory.cpp.obj CMakeFiles\pbd.dir\src\gui\GuiRenderer.cpp.obj CMakeFiles\pbd.dir\src\gui\WindowEngine.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandService.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\pbd.dir\src\simulation\Simulator.cpp.obj CMakeFiles\pbd.dir\src\simulation\Gravity.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\AnchorConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraintFactory.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\DistanceConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\RigidBodyConstraintFactory.cpp.obj
+build lib\pbd.lib: CXX_STATIC_LIBRARY_LINKER__pbd_Debug CMakeFiles\pbd.dir\lib\gl3w.c.obj CMakeFiles\pbd.dir\lib\LoadShaders.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_demo.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_draw.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_widgets.cpp.obj CMakeFiles\pbd.dir\lib\imgui\imgui_tables.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_opengl3.cpp.obj CMakeFiles\pbd.dir\lib\imgui\backends\imgui_impl_glfw.cpp.obj CMakeFiles\pbd.dir\src\Application.cpp.obj CMakeFiles\pbd.dir\src\simulation\Frametime.cpp.obj CMakeFiles\pbd.dir\src\configuration\Configuration.cpp.obj CMakeFiles\pbd.dir\src\camera\Camera.cpp.obj CMakeFiles\pbd.dir\src\entity\ObjectProvider.cpp.obj CMakeFiles\pbd.dir\src\entity\Object.cpp.obj CMakeFiles\pbd.dir\src\entity\Entity.cpp.obj CMakeFiles\pbd.dir\src\scene\Scene.cpp.obj CMakeFiles\pbd.dir\src\scene\Renderer.cpp.obj CMakeFiles\pbd.dir\src\scene\TriangleSceneFactory.cpp.obj CMakeFiles\pbd.dir\src\scene\FixedBarSceneFactory.cpp.obj CMakeFiles\pbd.dir\src\scene\ClothSceneFactory.cpp.obj CMakeFiles\pbd.dir\src\gui\GuiRenderer.cpp.obj CMakeFiles\pbd.dir\src\gui\WindowEngine.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandService.cpp.obj CMakeFiles\pbd.dir\src\gui\CommandStrategy.cpp.obj CMakeFiles\pbd.dir\src\simulation\Simulator.cpp.obj CMakeFiles\pbd.dir\src\simulation\Gravity.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\AnchorConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\BendConstraintFactory.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\DistanceConstraint.cpp.obj CMakeFiles\pbd.dir\src\simulation\constraints\RigidBodyConstraintFactory.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = CMakeFiles\pbd.dir

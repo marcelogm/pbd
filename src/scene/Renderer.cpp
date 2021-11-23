@@ -6,6 +6,19 @@ void Renderer::clear() {
 	glFlush();
 	glClearColor(0.75f, 0.75f, 0.75f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    switch (Configuration::getInstance()->getOpenGLConfiguration()->mode)
+    {
+    case RenderMode::TRIANGLES:
+        glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+        break;
+    case RenderMode::LINES:
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+        break;
+    case RenderMode::POINTS:
+        glPointSize(5.0);
+        glPolygonMode(GL_FRONT_AND_BACK, GL_POINT);
+        break;
+    }
 }
 
 void Renderer::prepare() {
