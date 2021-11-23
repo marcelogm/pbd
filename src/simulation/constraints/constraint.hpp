@@ -2,15 +2,13 @@
 #include "../../entity/entity.hpp"
 #include "../../configuration/config.hpp"
 #include <glm/gtx/norm.hpp> 
-#include <Eigen/Eigen>
+#include <algorithm>
 
 using glm::cross;
 using glm::normalize;
 using glm::dot;
 using glm::acos;
 using glm::l2Norm;
-using Eigen::MatrixXf;
-using Eigen::Vector3f;
 
 struct ConstraintConfiguration {};
 
@@ -36,7 +34,6 @@ private:
 	size_t i2;
 	size_t i3;
 	size_t i4;
-	// MatrixXf coeff;
 	float scalar_1;
 	float scalar_2;
 	float scalar_3;
@@ -57,7 +54,6 @@ private:
 	float stiffness;
 	float scalar_1;
 	float scalar_2;
-	MatrixXf scalarMatrix;
 	void precomputeInverseMassCoeff();
 public:
 	DistanceConstraint(Entity*, size_t, size_t, float);

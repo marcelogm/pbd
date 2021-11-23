@@ -233,3 +233,13 @@ cl : Command line warning D9002 : ignoring unknown option '-std=c++03'
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 failed with the following output:
+Change Dir: C:/Users/marce/UFRGS/pbd/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b68fe && [1/2] Building CXX object CMakeFiles\cmTC_b68fe.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-std=c++03'
+[2/2] Linking CXX executable cmTC_b68fe.exe
+
+
+Source file was:
+int main() { return 0; }
