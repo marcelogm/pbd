@@ -10,7 +10,7 @@ Application::Application() {
 
 void Application::loop() {
 	Simulator simulator = Simulator();
-	Scene* scene = ClothSceneFactory().build();
+	Scene* scene = TriangleSceneFactory().build();
 	CommandService::getInstance()->setCamera(scene->getCamera());
 	while (this->window->shouldClose()) {
 		simulator.update(scene);

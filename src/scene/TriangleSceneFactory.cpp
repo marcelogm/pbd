@@ -9,6 +9,8 @@ Scene* TriangleSceneFactory::build() {
 	};
 	auto f1 = vec3(-1.f, 0.f, 0.0f);
 	auto f2 = vec3(1.0f, 0.f, 1.0f);
+	Configuration::getInstance()->getSimulationParams()->iterations = 30; 
+	Configuration::getInstance()->getSimulationParams()->stiffness = 0.99;
 	Entity* b1 = getDebugBox(f1, 0.2, shaders);
 	Entity* b2 = getDebugBox(f2, 0.2, shaders);
 	Entity* triangle = new Entity(
@@ -26,7 +28,7 @@ Scene* TriangleSceneFactory::build() {
 	constraints.push_back(new AnchorConstraint(triangle, 0, f1));
 	constraints.push_back(new AnchorConstraint(triangle, 1, f2));
 	constraints.insert(constraints.end(), rigid.begin(), rigid.end());
-	triangle->getObject()->getVertices()->at(2) = vec3(4.0f, 4.0f, 4.0f);
+	triangle->getObject()->getVertices()->at(2) = vec3(2.0f, 2.0f, 2.0f);
 	Scene* scene = new Scene(
 		entities,
 		new Camera(vec3(0.4f, -1.0f, 4.75f), vec3(-0.4f, 0.0f, -0.92), -113, 0),

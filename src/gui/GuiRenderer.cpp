@@ -23,10 +23,9 @@ void GuiRenderer::render() {
 	ImGui::SliderInt("Solver Iterations", &config->getSimulationParams()->iterations, 1, 20, "%d", ImGuiSelectableFlags_None);
 	ImGui::SliderFloat("Time step", &config->getSimulationParams()->step, 0.00001f, 0.1f, "%.5f", ImGuiSelectableFlags_None);
 	ImGui::SliderInt("Substeps", &config->getSimulationParams()->substeps, 1, 20, "%d", ImGuiSelectableFlags_None);
-	ImGui::SliderFloat("k (distance constraint)", &config->getSimulationParams()->stiffness, 0.001, 0.99, "%.2f", ImGuiSelectableFlags_None);
-	ImGui::SliderFloat("k (bend constraint)", &config->getSimulationParams()->bendability, 0.0001, 0.99, "%.5f", ImGuiSelectableFlags_None);
-	ImGui::Checkbox("LLT Decomposition", &config->getSimulationParams()->llt);
-
+	ImGui::SliderFloat("k (distance constraint)", &config->getSimulationParams()->stiffness, 0.0001, 0.30, "%.5f", ImGuiSelectableFlags_None);
+	ImGui::SliderFloat("k (bend constraint)", &config->getSimulationParams()->bendability, 0.0001, 0.30, "%.5f", ImGuiSelectableFlags_None);
+	
 	ImGui::End();
 
 	ImGui::Begin("Render mode", NULL, ImGuiWindowFlags_AlwaysAutoResize);

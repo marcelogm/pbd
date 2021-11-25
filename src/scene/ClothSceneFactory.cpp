@@ -9,8 +9,13 @@ Scene* ClothSceneFactory::build() {
 	};
 	auto f1 = vec3(-0.8f, 0.2f, 0.8f);
 	auto f2 = vec3(-0.8f, 0.2f, -1.2f);
-	Configuration::getInstance()->getSimulationParams()->bendability = 0.010;
-	Configuration::getInstance()->getSimulationParams()->stiffness = 0.50;
+
+	Configuration::getInstance()->getSimulationParams()->bendability = 0.05;
+	Configuration::getInstance()->getSimulationParams()->stiffness = 0.20;
+	Configuration::getInstance()->getSimulationParams()->iterations = 5;
+	Configuration::getInstance()->getSimulationParams()->step = 0.01;
+	Configuration::getInstance()->getSimulationParams()->substeps = 5;
+
 	Entity* b1 = getDebugBox(f1, 0.2, shaders);
 	Entity* b2 = getDebugBox(f2, 0.2, shaders);
 	Entity* cloth = new Entity(
@@ -37,8 +42,8 @@ Scene* ClothSceneFactory::build() {
 	vector<Constraint*> bend = BendConstraintFactory().create(cloth);
 	constraints.push_back(new AnchorConstraint(cloth, 0, f1));
 	constraints.push_back(new AnchorConstraint(cloth, 2, f2));
-	constraints.insert(constraints.end(), bend.begin(), bend.end());
 	constraints.insert(constraints.end(), rigid.begin(), rigid.end());
+	constraints.insert(constraints.end(), bend.begin(), bend.end());
 	Scene* scene = new Scene(
 		entities,
 		new Camera(vec3(0.4f, -1.0f, 4.75f), vec3(-0.4f, 0.0f, -0.92), -113, 0),

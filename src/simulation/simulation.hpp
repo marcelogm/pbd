@@ -3,7 +3,7 @@
 #include "../scene/scene.hpp"
 #include "../configuration/config.hpp"
 
-class Gravity {
+class ExternalForce {
 private:
 	const float ACCELERATION = 9.80665f;
 public:
@@ -32,7 +32,7 @@ public:
 
 class Simulator {
 private:
-	Gravity* gravity;
+	ExternalForce* externalForces;
 	size_t iterations = 25;
 public:
 	void update(Scene* scene);

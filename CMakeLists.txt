@@ -59,7 +59,7 @@ add_library(pbd
 			"src/gui/CommandService.cpp"
 			"src/gui/CommandStrategy.cpp" 
 			"src/simulation/Simulator.cpp"
-			"src/simulation/Gravity.cpp" 
+			"src/simulation/ExternalForce.cpp" 
 			"src/simulation/constraints/AnchorConstraint.cpp"
 			"src/simulation/constraints/BendConstraint.cpp"
 			"src/simulation/constraints/BendConstraintFactory.cpp"  
